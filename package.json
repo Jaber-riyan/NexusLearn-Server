@@ -1,0 +1,28 @@
+{
+  "name": "nexuslearn-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsnd --respawn ./src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@types/express": "^5.0.2",
+    "@vercel/node": "^5.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.15.1",
+    "morgan": "^1.10.0",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/morgan": "^1.9.9"
+  }
+}
