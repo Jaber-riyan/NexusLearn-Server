@@ -11,7 +11,7 @@ app.use(
     cors({
         origin: [
             "http://localhost:3000",
-            "https://nexsus-learn-client.vercel.app"
+            "https://nexsus-learn.vercel.app"
         ],
         credentials: true,
     })
